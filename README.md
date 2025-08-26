@@ -56,12 +56,35 @@ Port 110: CLOSED
 Port 143: CLOSED
 Port 443: OPEN
 ```
+
+These are the most commonly scanned ports from Nmap’s fast scan (top 100) list.
+
+```
+20,21,22,23,25,53,80,110,111,135,139,143,443,445,993,995,1723,3306,3389,5900,8080,
+7,9,13,15,17,19,37,49,67,68,69,70,79,88,102,113,119,135,137,138,139,143,161,162,
+177,179,389,427,465,512,513,514,515,520,521,540,554,587,631,636,873,902,990,992,
+993,995,1080,1194,1433,1434,1494,1521,1720,1723,2049,2082,2083,2086,2087,2095,2096,
+3306,3389,3690,5432,5900,6000,6667,7001,8000,8080,8081,8443,8888,9000,9090,10000
+```
+
+You can load them in your Python script with:
+```
+python
+Copy
+Edit
+def load_common_ports(filename="common_ports.txt"):
+    with open(filename, "r") as f:
+        ports = f.read().replace("\n", "").split(",")
+    return [int(p.strip()) for p in ports if p.strip()]
+```
+Then your “fast mode” will read from this file instead of hardcoding ports.
+
 🛡️ Disclaimer
 This tool is built for educational purposes only.
 Please do not use it on any system you don’t own or have explicit permission to scan.
 The author is not responsible for misuse.
 
-**Fast Scan mode scans the 100 most commonly used ports (see common_ports.txt)
+
 
 🤝 Contributing
 Contributions are welcome!
