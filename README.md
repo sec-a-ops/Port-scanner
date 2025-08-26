@@ -44,7 +44,7 @@ Select scan type:
 Optionally save results to a file.
 
 📂 Example Output
-yaml
+
 ```
 Scanning scanme.nmap.org from port 20 to 200...
 
@@ -61,7 +61,7 @@ This tool is built for educational purposes only.
 Please do not use it on any system you don’t own or have explicit permission to scan.
 The author is not responsible for misuse.
 
-Fast Scan mode scans the 100 most commonly used ports (see common_ports.txt)
+**Fast Scan mode scans the 100 most commonly used ports (see common_ports.txt)
 
 🤝 Contributing
 Contributions are welcome!
@@ -73,7 +73,4 @@ Contributions are welcome!
 If you find this project useful, consider leaving a ⭐ on the repo!
 
 
-
-
-```
 
