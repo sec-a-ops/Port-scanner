@@ -24,12 +24,12 @@ Clone the repo and navigate into it:
 ```bash
 git clone https://github.com/your-username/port-scanner.git
 cd port-scanner
+```
 Run the script:
 
-bash
-Copy
-Edit
+```bash
 python port_scanner.py
+```
 ⚡ Usage
 Enter the target IP address or domain name.
 
@@ -45,8 +45,7 @@ Optionally save results to a file.
 
 📂 Example Output
 yaml
-Copy
-Edit
+```
 Scanning scanme.nmap.org from port 20 to 200...
 
 Port 22: OPEN
@@ -56,25 +55,25 @@ Port 80: OPEN
 Port 110: CLOSED
 Port 143: CLOSED
 Port 443: OPEN
+```
 🛡️ Disclaimer
 This tool is built for educational purposes only.
-Do not use it on any system you don’t own or have explicit permission to scan.
+Please do not use it on any system you don’t own or have explicit permission to scan.
 The author is not responsible for misuse.
+
+Fast Scan mode scans the 100 most commonly used ports (see common_ports.txt)
 
 🤝 Contributing
 Contributions are welcome!
-
-Fork the repo
-
-Create a feature branch
-
-Submit a Pull Request
+ *Fork the repo
+ *Create a feature branch
+ *Submit a Pull Request
 
 ⭐ Support
 If you find this project useful, consider leaving a ⭐ on the repo!
 
-yaml
-Copy
-Edit
 
+
+
+```
 
