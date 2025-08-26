@@ -1,8 +1,8 @@
 # Port-scanner
- Simple Python Port Scanner::  A lightweight and customizable Python-based port scanner that helps you quickly check for open and closed ports on any target system.
+ Simple Python Port Scanner:  A lightweight and customizable Python-based port scanner that helps you quickly check for open and closed ports on any target system.
 # 🔍 Python Port Scanner
 
-A simple yet powerful **Python-based port scanner** for learning and practicing cybersecurity fundamentals.  
+A simple yet powerful **Python-based port scanner** for learning and practising cybersecurity fundamentals.  
 This project lets you scan open and closed ports on a target host with options for single, ranged, or fast scanning.  
 
 ---
@@ -69,9 +69,6 @@ These are the most commonly scanned ports from Nmap’s fast scan (top 100) list
 
 You can load them in your Python script with:
 ```
-python
-Copy
-Edit
 def load_common_ports(filename="common_ports.txt"):
     with open(filename, "r") as f:
         ports = f.read().replace("\n", "").split(",")
