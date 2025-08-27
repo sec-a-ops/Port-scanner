@@ -22,7 +22,7 @@ This project lets you scan open and closed ports on a target host with options f
 ## 📦 Installation
 Clone the repo and navigate into it:
 ```bash
-git clone https://github.com/your-username/port-scanner.git
+git clone https://github.com/sec-a-ops/port-scanner.git
 cd port-scanner
 ```
 Run the script:
