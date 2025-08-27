@@ -15,7 +15,6 @@ This project lets you scan open and closed ports on a target host with options f
   - Fast Scan (common 100 ports)  
 - 📊 **Progress Indicator** – See scanning progress in real-time.  
 - ✅ **Open & Closed Port Detection** – Full results shown in the terminal.  
-- 💾 **Save Results** – Export results to a text file with your chosen filename.  
 
 ---
 
